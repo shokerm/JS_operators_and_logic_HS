@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Btns{
+            display: flex;
+            width: 20%;
+            flex-direction: column;
+         
+        }
+        .container {
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            font-family: ariel , sans-serif;
+        }
+        h3{
+            text-decoration: underline;
+
+        }
+        button{
+            margin: 5px;
+            height: 30px;
+            width: 250px;
+            border: none;
+            background-color: #0d2acb;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 1000px;
+        }
+    </style>
+</head>
+<body>
+<h4>Functions</h4>
+    <div Btns class="Btns">
+    <button  onclick="GetNumberAndAlertIfInArray()">GetNumberAndAlertIfInArray</button>
+    <button  onclick="GetNumberAndAlertIfHas5numbers()">GetNumberAndAlertIfHas5numbers</button>
+    <button  onclick="GetStringAndAlertIfHas5Letters()">GetStringAndAlertIfHas5Letters</button>
+    <button  onclick="GetWeekExpence()">GetWeekExpence</button>
+    <button  onclick="GetNumberAndTellWhatItIs()">GetNumberAndTellWhatItIs</button>
+</div>
+
+    <div class="container">
+        <ol>
+            <h3><em>True or False</em></h3>
+            <li>
+                <h4>null == true > false</h4>
+            </li>
+            <li>
+                <h4>0===false > false</h4>
+            </li>
+            <li>
+                <h4>!"cat" > false</h4>
+            </li> 
+            </ol>
+</div>
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
